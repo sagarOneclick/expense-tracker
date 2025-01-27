@@ -16,7 +16,7 @@ function App() {
       <Expenses expenses={expenses}/>
       <Income income={incomes}/>
       </div>
-      <Add props={[expenses,setExpenses,incomes,setIncomes]}/> 
+      <Add props={{expenses,setExpenses,incomes,setIncomes}}/> 
     </>
   )
 }
